@@ -16,7 +16,7 @@ public class ShippingTest {
     System.out.println("---- TESTING PART C ----");
     ShippingItem newItem = new InsuredShippingItem(10, 50);
     System.out.println(newItem.getCost());
-    
+
     // ---- TESTING PART D ----
     System.out.println("---- TESTING PART D ----");
     ArrayList<ShippingItem> itemList = new ArrayList<>();
@@ -41,6 +41,8 @@ public class ShippingTest {
         totalCost += item.getCost();
       }
     }
+
+
 //    for (ShippingItem item : itemList) {
 //      totalCost += item.getCost();
 //    }
